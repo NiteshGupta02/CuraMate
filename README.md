@@ -1,3 +1,26 @@
-# CuraMate
+# CuraMet
 
-CuraMate – Your Personalized Ayurvedic Health Assistant – is an innovative project that integrates the principles of traditional Ayurveda with modern artificial intelligence to promote holistic well-being. The system allows users to input their physical or emotional symptoms, which are then analyzed using machine learning algorithms trained on Ayurvedic data. Based on the user's input and their body type (dosha – Vata, Pitta, Kapha), CuraMate provides customized herbal remedies, dietary suggestions, and lifestyle changes rooted in Ayurvedic principles.
+Hello this is Curamet, A software that suggests drugs and formulations for a disease/pharmacological property based on the Ayurvedic classical books/Repositories.
+We made this for participating in Smart India Hackathon.
+
+Running it locally:
+1) Clone the repository
+2) Install python
+3) Create a virtual environment(Optional)
+4) Run
+```bash
+pip install -r requirements.txt
+```
+5) Run
+```bash
+cd VedaPharma
+```
+6) Run the app
+```bash
+streamlit run main.py
+```
+
+# Tech Stacks:
+1) Python
+2) Streamlit
+3) Machine Learning tools(numpy, pandas etc)
